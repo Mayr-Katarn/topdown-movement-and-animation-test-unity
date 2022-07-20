@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &262834810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6557335809999694342, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+  m_PrefabInstance: {fileID: 1563873489223696371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &394978558
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +224,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &541189798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7366148228588333536, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+  m_PrefabInstance: {fileID: 1563873489223696371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &584555202 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1563873489713341745, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
@@ -1060,6 +1070,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2786156625027576622, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+      propertyPath: off
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786156625027576622, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786156625027576622, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+      propertyPath: _pelvisBone
+      value: 
+      objectReference: {fileID: 541189798}
+    - target: {fileID: 2786156625027576622, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+      propertyPath: _targetBone
+      value: 
+      objectReference: {fileID: 262834810}
+    - target: {fileID: 2786156625027576622, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
+      propertyPath: _additionalAngleOffset
+      value: -12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c4d9f99698b80f4f8764c6c2eaaabdb, type: 3}
 --- !u!33 &1583229666372908306
@@ -1187,7 +1217,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1958092452001942404, guid: 5e0dba887edd87140b1da687bf0f197b, type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.002398205
       objectReference: {fileID: 0}
     - target: {fileID: 1958092452040431581, guid: 5e0dba887edd87140b1da687bf0f197b, type: 3}
       propertyPath: m_ConnectedAnchor.y
